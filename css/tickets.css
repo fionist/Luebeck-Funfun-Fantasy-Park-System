@@ -1,0 +1,145 @@
+/**
+ * The style of tickets
+ * @author Lin Han
+ * @date 6.4.2021
+ */
+
+ html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #f2f2f2;
+    font-family: Helvetica, sans-serif;
+	
+}
+
+h1{
+	color: #49b2e1;
+}
+
+p{
+	font-size: 18px;
+	color: #666;
+}
+
+.container{
+	margin: auto;
+	width: 70%;
+	padding: 50px;
+	padding-top: 10px;
+    background-color: #99ddcc;
+    border-radius: 20px;
+	
+}
+
+.center{
+	text-align: center;
+}
+
+.postTitle{
+	color: #49b2e1;
+	text-decoration: none;
+	
+}
+
+
+.homeButton{   
+	width: 100px;
+	margin: 20px;
+    padding: 10px;
+}  
+button{   
+    width: 300px;   
+    min-height: 20px;   
+    display: block;   
+    margin-bottom: 10px;
+    background-color: #49b2e1;   
+    border: 2px solid #4082bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    cursor: pointer;
+    transition-duration: 0.5s;
+}  
+button:hover{
+	background-color: #518297;
+	box-shadow:  0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+	opacity: 1;
+}
+button:active {
+ 	 transform: translateY(4px);
+  	transition-duration: 0s;
+}
+.button{
+	border: 1px solid #49b2e1;
+	padding: 4px 16px;
+	color: #FCE38A;
+    text-decoration: none;
+    margin: 5px;
+    width: 70px;
+}
+.button:hover{
+    color: #49b2e1;
+}
+form{
+	margin-bottom: 15px;
+}
+
+.pmbutton{
+	width: 34px;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+}
+.numbercount{
+	width: 150px;
+	float: left;
+}
+.oneline{
+	display: inline;
+	cursor: not-allowed;
+}
+.submit_button{
+	margin: auto;
+	margin-top: 10px;
+}
+
+button{   
+    width: 300px;   
+    min-height: 20px;   
+    display: block;   
+    margin-bottom: 10px;
+    background-color: #49b2e1;   
+    border: 2px solid #4082bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    cursor: pointer;
+    transition-duration: 0.5s;
+}  
+button:hover{
+	background-color: #518297;
+	box-shadow:  0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+	opacity: 1;
+}
+button:active {
+ 	 transform: translateY(4px);
+  	transition-duration: 0s;
+}
+.button-group{
+	text-align: center;
+}
+.welcome{
+	font-size: 20px;
+	font-weight: bold;
+    color: #ff6b81;
+    text-decoration: none;
+}
+
